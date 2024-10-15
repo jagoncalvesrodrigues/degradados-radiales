@@ -4,6 +4,7 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    padding: 10%;
 }
 img{
     display: block;
@@ -18,4 +19,31 @@ ul{
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+}
+.banderas{
+    display: flex;
+    justify-content: center;
+}
+.bandera{
+    width: 30%;
+    height: 200px;
+    margin: 5px;
+}
+.japon{
+    background-image: radial-gradient(circle, red 30%,transparent 30%);
+    border: 1px solid black;
+}
+.palaos{
+    background-image: radial-gradient(circle at 35%, rgb(248, 217, 42) 25%,transparent 25%);
+    background-color: rgb(105, 197, 233);
+}
+.laos{
+    background-image: radial-gradient(circle, rgb(255, 255, 255) 30%,transparent 30%),linear-gradient(red 30%,rgb(33, 33, 136) 30% 70%,red 70%);
+    border: 1px solid black;
+}
+.arcoiris{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    background-image: radial-gradient(at bottom center, transparent 20%,red 20% 25%, orange 25% 30%, yellow 30% 35%, green 35% 40%, blue 40% 45%, purple 45% 50%,pink 50% 55%,transparent 55%);
 }
